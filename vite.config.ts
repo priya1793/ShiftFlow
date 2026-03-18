@@ -6,6 +6,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ["shiftflow-lqwl.onrender.com"],
   },
   plugins: [react()],
   resolve: {
